@@ -41,6 +41,17 @@ class CalcController {
             }
         }
     }
+
+    handleExchangeFahrenheitToCelsiusAndReverse(req, res, next) {
+        const { value, type } = req.body;
+        if (type === 'F to C') {
+            const result = 5 / 9 * (parseFloat(value) - 32);
+            return res.json({ result : result.toFixed(2) });
+        } else {
+            const result = 9/5 * parseFloat(value) + 32
+            return res.json({ result: result.toFixed(2) });
+        }
+    }
 }
 
 export default new CalcController;

@@ -40,6 +40,20 @@ const MainScreen: React.FC = () => {
           Lab 4
         </Text>
       </Pressable>
+      <Pressable
+        onPress={() => handleDirection('lab5')}
+        className="w-full bg-blue-600 px-4 py-3 rounded mt-4">
+        <Text className="uppercase text-white text-center text-lg font-semibold">
+          Lab 5
+        </Text>
+      </Pressable>
+      <Pressable
+        onPress={() => handleDirection('lab6')}
+        className="w-full bg-blue-600 px-4 py-3 rounded mt-4">
+        <Text className="uppercase text-white text-center text-lg font-semibold">
+          Lab 6
+        </Text>
+      </Pressable>
     </Container>
   );
 };

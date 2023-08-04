@@ -1,4 +1,4 @@
-import { jsonData, personArr, personObj } from '../utils/constants';
+import { jsonData, personArr, personObj } from "../utils/constants";
 
 class ContactController {
     handleReturnList(req, res, next) {
