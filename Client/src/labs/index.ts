@@ -4,3 +4,5 @@ export * from './lab3';
 export * from './lab4';
 export { default as Lab5Screen } from './lab5';
 export { default as Lab6Screen } from './lab6';
+export { default as Lab7Screen } from './lab7';
+export * from './lab8';

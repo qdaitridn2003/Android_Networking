@@ -9,6 +9,8 @@ import {
   Lab4Screen,
   Lab5Screen,
   Lab6Screen,
+  Lab7Screen,
+  Lab8Screen,
 } from '../labs';
 
 const MainNavigation: React.FC = () => {
@@ -25,6 +27,8 @@ const MainNavigation: React.FC = () => {
         <MainStack.Screen name="lab4" component={Lab4Screen} />
         <MainStack.Screen name="lab5" component={Lab5Screen} />
         <MainStack.Screen name="lab6" component={Lab6Screen} />
+        <MainStack.Screen name="lab7" component={Lab7Screen} />
+        <MainStack.Screen name="lab8" component={Lab8Screen} />
       </MainStack.Navigator>
     </NavigationContainer>
   );

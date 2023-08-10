@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const localhost = '192.168.1.192';
-// const localhost = '172.16.55.0';
+export const localhost = '192.168.1.192';
+// export const localhost = '172.16.52.102';
 const port = '8080';
 
 const axiosInstance = axios.create({
